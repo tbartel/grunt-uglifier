@@ -1,0 +1,24 @@
+{
+  "name": "grunt-uglifier",
+  "description": "Combine and obfuscate Node.js applications using node-uglifier",
+  "version": "0.0.1",
+  "author": {
+    "name": "Tyler Bartel",
+    "url": "http://www.github.com/tbartel"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "node-uglifier": "~0.1.6"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "files": [
+    "tasks"
+  ]
+}

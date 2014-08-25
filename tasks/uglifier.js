@@ -1,5 +1,5 @@
 /*
- * grunt-contrib-uglifier
+ * grunt-uglifier
  * Uglify and obfuscate full Node.js projects
  */
 

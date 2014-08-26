@@ -13,4 +13,9 @@ uglifier: {
         destFile: 'dest/main.js'
     }
 }
+...
+grunt.loadNpmTasks('grunt-uglifier');
+grunt.registerTask('buildInternal', [
+   'uglifier:obfuscate'
+]);
 ```
